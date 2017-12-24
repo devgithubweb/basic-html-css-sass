@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+<!--     <link type="text/css" rel="stylesheet" href="custom-btn.css">
+    <link type="text/css" rel="stylesheet" href="custom-about.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">
+    	html{
+  
+		  background: #000000;
+		}
+		.dropdown-content{
+		  margin: 20px 0px 0px 0px;
+		  overflow:inherit;
+		}
+
+		.dropdown-button::before {
+		  content: "▼";
+		  display: inline;
+		  padding-right: 5px;
+		}
+
+		.dropdown-content:after{
+		    content: "";
+		    position: absolute;
+		    width: 40px;
+		    height: 40px;
+		    background: #ffffff;
+		    -webkit-transform: rotate(45deg);
+		    transform: rotate(45deg);
+		    top: 0;
+		    right: 10px;
+		    z-index: -1;
+		}
+    </style>
+  </head>
+
+  <body>
+   
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Script End -->
+
+  <div class="col s12">
+	<a class='dropdown-button btn' href='#' data-beloworigin='true' data-activates='dropdown1'>Drop Me!</a>
+
+	  <ul id='dropdown1' class='dropdown-content'>
+	    <li><a href="#!">one</a></li>
+	    <li><a href="#!">two</a></li>
+	    <li class="divider"></li>
+	    <li><a href="#!">three</a></li>
+	  </ul>
+	  </div>
+
+  </body>
+
+  <script type="text/javascript">
+ 
+    $( document ).ready(function(){
+       $('.modal').modal();
+      $(".button-collapse").sideNav();      
+    });
+
+    $('#signupbtn').click(function () {
+      console.log("clso");
+      $('#joinmodal').modal('close');
+    });
+
+  </script>
+</html>

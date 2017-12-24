@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.homepage-banner {
+  background: url("/idea-jam-homepage.jpeg");
+  background-position: center;
+  background-size: cover;
+  color: #2a6698; }
+
+.navbar-search > input:focus ~ i {
+  color: #26a69a !important; }
+
+.dropdown-content {
+  margin: 66px 0px 0px 0px;
+  overflow: inherit;
+  left: inherit !important;
+  width: 203px !important;
+  border-radius: 9px !important; }
+
+.dropdown-content > :first-child {
+  margin-top: 10px !important; }
+
+/*.dropdown-button::before {
+  content: "Γû╝";
+  display: inline;
+  padding-right: 5px;
+}*/
+.dropdown-content:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 0;
+  right: 10px;
+  z-index: -1; }
+
+.dropdown-content li {
+  min-height: 0px !important; }
+
+.dropdown-content a {
+  padding: 5px 16px !important; }
+
+.menu-img:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  border-radius: 50%; }
+
+/*# sourceMappingURL=custom-about.css.map */
