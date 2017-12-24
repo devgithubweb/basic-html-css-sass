@@ -48,10 +48,23 @@
 	padding: 5px 16px !important;
 }
 
-.menu-img:before {
+.dropdown-content .menu-img:before {
 	content: "";
 	width: 20px;
 	height: 20px;
 	background-color: gray;
 	border-radius: 50%;
+}
+
+.dropdown-content .menu-enable-item {
+	color:black !important;
+}
+
+.dropdown-content .menu-disable-item {
+	color:gray !important;
+}
+
+.dropdown-content .menu-enable-group {
+	margin-left: 16px;
+	color: gray;
 }
