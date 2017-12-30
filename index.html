@@ -47,21 +47,18 @@
 
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
-            <div class="input-field col s6 navbar-search" style="position:absolute;top:0px; left:232px;width:294px;">
-              <input id="last_name" type="text" class="validate" style="height:21px;position:absolute; top:21px;border-bottom: 1px solid;color: #9e9e9e;color:black; border-bottom: 1px solid; border-color:#9e9e9e;">
-              <label for="last_name" style="font-size:12px; top:-13px;left:0px;">skill proficiency</label>
-              <i class="material-icons" style="position:absolute; right:0px; top:0px;color:#9e9e9e;">search</i>
+            <div class="searchbar"></div>
+            <div class="input-field col s6 navbar-search" id="navbar-search">
+              <input id="search_name" type="text" class="validate">
+              <label for="search_name">Search people, ideas & jams</label>
+              <i class="material-icons">search</i>
             </div>
           </li>
           <li><a class="nav-link waves-effect waves-light btn cus-w-b-hr">start new skill</a></li>
           <li><div style="width:64px;height:100%;margin:0px;padding:16px;"><div style="border-radius:50%;width:100%;height:100%; background-color:gray;"></div></li>
-
-          <li><a href="#" style="color:black;">alex loshak</a></li>
+          <li><a href="#" style="color:black;">user name</a></li>
           <li><a href="#" style="font-size:16px;color:black;">250</a></li>
-<!--           <li><a class="nav-link btn cus-b-w-hr-sh-f">About</a></li>
-          <li><a class="nav-link waves-effect waves-light btn cus-b-w-hr-sh-f modal-trigger" href="#loginmodal">Service</a></li>
-          <li><a class="nav-link waves-effect waves-light btn cus-b-w-hr-sh-f modal-trigger" href="#signupmodal" >Contract</a></li> -->
-          <li><a href='#' class="dropdown-button" data-activates='dropdown1' style="height: 100%;margin: 0px !important;width: 64px;background-color: rebeccapurple;"><i class="material-icons" style="font-size:36px;">menu</i></a></li>
+          <li><a href='#' class="dropdown-button" data-activates='dropdownmenu' style="height: 100%;margin: 0px !important;width: 64px;background-color: rebeccapurple;"><i class="material-icons" style="font-size:36px;">menu</i></a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a class="nav-link btn cus-b-w-hr-sh-f">About</a></li>
@@ -69,10 +66,9 @@
           <li><a class="nav-link waves-effect waves-light btn cus-b-w-hr-sh-f" >Contract</a></li>
           <li><a class="nav-link waves-effect waves-light btn cus-w-b-hr modal-trigger" href="#joinmodal">Login/Register</a></li>
         </ul>
-
       </div>
     </nav>      
-    <ul id='dropdown1' class='dropdown-content' style="width:203px !important; right:12px;">
+    <ul id='dropdownmenu' class='dropdown-content' style="width:203px !important; right:12px;">
       <li><a href="#!" class="menu-enable-item">Go to home</a></li>
       <li><a href="#!" class="menu-enable-item">Upgrade</a></li>
       <li class="divider"></li>
@@ -93,7 +89,6 @@
       <li><a href="#" class="menu-enable-item">Settings</a></li>
       <li><a href="#" class="menu-enable-item">Logout</a></li>
     </ul>
-    <div class="arrow-up"></div>
 <!--       <div class="input-field col s6 navbar-search" style="position:absolute;top:7px; left:232px;width:294px;">
         <input id="last_name" type="text" class="validate" style="height:21px;">
         <label for="last_name" style="font-size:12px; top:-10px;left:0px;">Search people, ideas & jams</label>
@@ -217,18 +212,5 @@
 
   </body>
 
-  <script type="text/javascript">
- 
-    $( document ).ready(function(){
-      $('.modal').modal();
-      $(".button-collapse").sideNav();      
 
-    });
-
-    $('#signupbtn').click(function () {
-      console.log("clso");
-      $('#joinmodal').modal('close');
-    });
-
-  </script>
 </html>

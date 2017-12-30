@@ -1,0 +1,46 @@
+@import 'custom-btn';
+
+@media screen and (min-width: 100px) {
+	.card > .row {
+		display: block;
+	}
+
+	.card .img-content {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.card > .row {
+		display: flex;
+		align-items: center;
+	}
+
+	.card .img-content > img {
+		min-width: 100px;
+	}
+}
+
+
+
+.card > .img-content {
+	background-color:#1c2d35;
+/*	text-align: center;*/
+}
+
+.card-date {
+	color: $col-gray;
+	font-size: 10px;
+}
+.card > .row {
+	background-color: #1c2d35;
+}
+
+.card .txt-content {
+	background-color: white;
+}
+
+.card .slider {
+	border-bottom:3px solid $col-gray;
+}

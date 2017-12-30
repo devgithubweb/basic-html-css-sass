@@ -1,0 +1,15 @@
+.tab .active {
+  font-weight: bold;
+  color: blue !important; }
+
+.tab a {
+  color: black !important; }
+
+.tabs .indicator {
+  background-color: blue !important;
+  height: 3px; }
+
+.ddd {
+  width: 33.33%; }
+
+/*# sourceMappingURL=custom-profile.css.map */

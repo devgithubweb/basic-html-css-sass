@@ -9,6 +9,35 @@
 	color:#26a69a !important;
 }
 
+#navbar-search {
+	position:absolute;
+	top:0px;
+	left:232px;
+	width:294px;
+}
+#navbar-search input {
+	height:21px;
+	position:absolute; 
+	top:21px;
+	border-bottom: 1px solid;
+	color: #9e9e9e;
+	color:black; 
+	border-bottom: 1px solid; 
+	border-color:#9e9e9e;
+}
+#navbar-search label {
+	font-size:12px; 
+	top:-13px;
+	left:0px;
+}
+#navbar-search i {
+	position:absolute; 
+	right:0px; 
+	top:0px;
+	color:#9e9e9e;
+}
+
+
 .dropdown-content{
   margin: 66px 0px 0px 0px;
   overflow:inherit;
